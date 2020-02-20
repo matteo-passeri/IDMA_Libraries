@@ -6,7 +6,6 @@ public class theTest extends Game {
 
 		private static final long serialVersionUID = 1L;
 		
-		@SuppressWarnings("unused")
 		private Handler handler;
 		private Core core;
 		
