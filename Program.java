@@ -39,7 +39,7 @@ public abstract class Program extends Canvas {
 	}
 
 	/**
-	 * Creates a StandardGame object with aspect ration 16:9 via the supplied width.
+	 * Creates a Game object with aspect ration 16:9 via the supplied width.
 	 *
 	 *
 	 * @param int width, String title
@@ -49,7 +49,7 @@ public abstract class Program extends Canvas {
 	}
 
 	/**
-	 * Generates a StandardGame object with a title, and forces the screen size to
+	 * Generates a Game object with a title, and forces the screen size to
 	 * whatever the user's monitor dimensions are.
 	 *
 	 *
@@ -88,11 +88,11 @@ public abstract class Program extends Canvas {
 	}
 
 //	private int getScreenWidth() {
-//		return (int) IDMA_Program.SCREEN_DIMENSION.getWidth();
+//		return (int) Program.SCREEN_DIMENSION.getWidth();
 //	}
 //
 //	public int getScreenHeight() {
-//		return (int) IDMA_Program.SCREEN_DIMENSION.getHeight();
+//		return (int) Program.SCREEN_DIMENSION.getHeight();
 //	}
 
 }
