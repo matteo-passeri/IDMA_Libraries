@@ -24,29 +24,7 @@ public class Window extends Canvas {
 	private int width;
 	private int height;
 
-	public Window(int width, int height, String title, Core core, GraphicsConfiguration gc) {
-		this.FRAME = new JFrame(title, gc);
-
-		this.width = width;
-		this.height = height;
-		this.TITLE = title;
-
-		this.FRAME.setMinimumSize(new Dimension(width, height));
-		this.FRAME.setMaximumSize(new Dimension(width, height));
-		this.FRAME.setPreferredSize(new Dimension(width, height));
-		this.FRAME.getContentPane().setSize(new Dimension(width, height));
-//		this.FRAME.setIconImage(IDMA_ImageLoader.loadImage(this.ICON));
-
-		this.FRAME.setResizable(false);
-		this.FRAME.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.FRAME.setLocationRelativeTo(null);
-
-		this.FRAME.add(core);
-		this.FRAME.pack();
-
-		this.FRAME.setVisible(true);
-	}
-
+	
 	public Window(int width, int height, String title, Object core) {
 		this.FRAME = new JFrame();
 
